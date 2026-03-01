@@ -1,0 +1,29 @@
+The Transformer architecture was introduced in 2017 in the research paper "Attention Is All You Need" by Vaswani et al.
+
+Transformers replaced traditional Recurrent Neural Networks (RNNs) and LSTMs in many NLP tasks.
+
+Key components of Transformer architecture:
+
+1. Self-Attention Mechanism:
+   Allows the model to focus on different parts of the input sequence when processing each token.
+
+2. Multi-Head Attention:
+   Multiple attention heads run in parallel to capture different relationships in the data.
+
+3. Positional Encoding:
+   Since Transformers process tokens in parallel, positional encoding is added to preserve word order information.
+
+4. Feed-Forward Neural Network:
+   Applied after attention layers to introduce non-linearity.
+
+Transformers are the foundation of modern Large Language Models (LLMs) such as:
+- GPT models
+- BERT
+- T5
+- LLaMA
+- Mistral
+
+Advantages of Transformers:
+- Parallel processing
+- Better long-range dependency handling
+- Scalable training

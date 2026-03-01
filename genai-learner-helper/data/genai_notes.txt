@@ -1,0 +1,24 @@
+Generative AI (GenAI) is a subset of Artificial Intelligence that can create new content such as text, images, code, audio, and video.
+
+Unlike traditional AI systems that only classify or predict, Generative AI produces original outputs based on patterns learned from large datasets.
+
+GenAI systems are typically powered by Large Language Models (LLMs) built using Transformer architecture.
+
+Examples of Generative AI systems include:
+- ChatGPT for text generation
+- GitHub Copilot for code generation
+- Midjourney for image generation
+- DALL·E for image creation
+
+Common applications of GenAI:
+- Content creation
+- Code generation
+- Chatbots and virtual assistants
+- Document summarization
+- Question answering systems
+
+Challenges in Generative AI:
+- Hallucination (generating incorrect information)
+- Bias in training data
+- High computational cost
+- Data privacy concerns

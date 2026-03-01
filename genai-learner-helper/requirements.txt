@@ -1,0 +1,7 @@
+langchain
+langchain-community
+langchain-huggingface
+transformers==4.57.6
+sentence-transformers
+huggingface-hub==0.36.2
+faiss-cpu

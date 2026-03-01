@@ -1,0 +1,31 @@
+RAG stands for Retrieval-Augmented Generation.
+
+RAG is a technique that combines information retrieval with generative language models.
+
+Instead of relying only on pre-trained knowledge, RAG retrieves relevant documents from an external knowledge base before generating a response.
+
+RAG Pipeline Steps:
+
+1. User enters a query.
+2. Query is converted into embeddings.
+3. Embeddings are used to search a vector database (e.g., FAISS).
+4. Top relevant document chunks are retrieved.
+5. Retrieved context is sent to the language model.
+6. The language model generates a grounded response.
+
+Benefits of RAG:
+- Reduces hallucination
+- Provides up-to-date information
+- Improves factual accuracy
+- Enables domain-specific question answering
+
+Common Vector Databases used in RAG:
+- FAISS
+- Pinecone
+- Weaviate
+- Chroma
+
+RAG is widely used in:
+- Enterprise chatbots
+- Knowledge assistants
+- AI-powered documentation tools

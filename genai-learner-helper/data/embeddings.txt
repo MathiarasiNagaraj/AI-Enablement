@@ -1,0 +1,27 @@
+Embeddings are numerical vector representations of text.
+
+They convert words, sentences, or documents into dense vectors in high-dimensional space.
+
+Embeddings allow semantic similarity comparison between texts.
+
+For example:
+- "What is GenAI?" and "Explain Generative AI" will have similar embeddings.
+
+In a RAG system:
+
+1. Documents are converted into embeddings.
+2. User query is also converted into an embedding.
+3. Vector similarity search finds the most relevant documents.
+
+Popular embedding models:
+- sentence-transformers/all-MiniLM-L6-v2
+- OpenAI text-embedding models
+- BGE embeddings
+- Instructor embeddings
+
+Embedding similarity is usually measured using:
+- Cosine similarity
+- Dot product
+- Euclidean distance
+
+Embeddings are stored in vector databases like FAISS for efficient retrieval.
